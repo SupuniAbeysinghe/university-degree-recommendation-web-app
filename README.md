@@ -31,20 +31,3 @@ is stored in a structured **Google Sheet**, which serves as the central data sou
 📎 **Google Sheet Link**:  
 [Click here to view the dataset](https://docs.google.com/spreadsheets/d/1ky_E-_eZ2_4IPxvxg1J6-Z7-RUGqZbho5N230wP2tHQ/edit?usp=sharing)
 
----
-
-## 🔌 API Endpoints
-
-### `GET /api/degrees`
-Retrieves all available degree programs from the dataset.
-
-### `POST /api/recommend`
-Returns a list of recommended degree programs based on the user's input provided in the request body.
-
-#### Example Request Body:
-```json
-{
-  "subjectStream": "Science",
-  "zScore": 1.5,
-  "district": "Colombo"
-}
